@@ -3,3 +3,21 @@
     background-color: rgb(6, 164, 255);
     color: white;
 }
+
+.align-top{
+  background-color: dodgerblue;
+}
+
+body{
+    padding: 0 50px 0 50px;
+}
+.navbar 
+{
+    margin-bottom: 10px;
+}
+.responsive-img 
+{
+width: 100%;
+height: auto;
+
+}
