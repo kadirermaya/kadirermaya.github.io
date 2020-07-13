@@ -102,6 +102,12 @@ body{
   font-size:20pt;
   font-style: italic;
   }
+  .info .p1{
+    font-size: 30px;
+  }
+  .info .p2{
+    font-size: 12px;
+  }
 
   .aboutme-head{
   background-color: #87CEFA;
