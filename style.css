@@ -1,32 +1,37 @@
-.jumbotron
+@import url("https://use.typekit.net/nul8uqd.css");
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;700&display=swap');
+
+.index-head
 {
-    background-color: rgb(6, 164, 255);
-    color: white;
-    border: 25px;
+  background-color: rgb(6, 164, 255);
+  color: white;
 }
+
+.index-head .display-4{
+  font-family: 'Baloo Da 2', cursive;
+  }
 
 .align-top{
   background-color: dodgerblue;
 }
 
 body{
-    padding: 0 50px 0 50px;
+  padding: 0 15px 0 15px;
 }
 .navbar 
 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-.responsive-img 
-{
-width: 100%;
-height: auto;
-border-radius: 450px 0 450px 0;
-}
-.image{
+  .responsive-img{
+  width: 100%;
+  height: auto;
+  border-radius: 450px 0 450px 0;
+  }
+
+  .image{
   width: 50px;
   height: auto;
   margin-bottom: 4px;
-  
   }
 
   .instagram 
@@ -42,24 +47,83 @@ border-radius: 450px 0 450px 0;
   {
     background-color: dodgerblue;
   }
+
   .fab{
     margin: 20px;
   }
-  .div5 
-  {
+
+  .div5{
     margin-top: 10px;
     background-color: 	#87CEFA;
-    ;
   }
-  .link  {
-    
-    color: inherit;
-    
-     
+  
+  .link{
+  color: inherit;
   }
 
-  a:hover {
+  a:hover{
     color: inherit;
     text-decoration: none;
   }
-  
+
+  .container{
+    display: flex;
+  }
+
+  .lead{
+  margin-left: 15px;
+  margin-right: 15px;
+  }
+
+  .card{
+  text-align: center;
+  }
+
+  .container{
+    justify-content: center;
+    background-color: 	#87CEFA;
+  }
+ 
+  .top-margin{
+    margin-top: 20px;
+  }
+
+  .contact-head{
+    background-color: #87CEFA;
+  }
+
+  .info{
+  background-color:#87CEFA ;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: urbane, sans-serif;
+
+  font-weight: 700;
+  font-size:20pt;
+  font-style: italic;
+  }
+
+  .aboutme-head{
+  background-color: #87CEFA;
+  }
+
+  .container5 .row .image {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+  }
+
+  .image2{
+  width: 100%;
+  height: auto;
+  padding: 30px 0 0 0;
+  }
+
+  .ctn-center{
+  margin-top: -10px;
+  margin-bottom: 10px;
+  }
+
+  .container7 .row .card{
+  margin: 25px;
+  }
